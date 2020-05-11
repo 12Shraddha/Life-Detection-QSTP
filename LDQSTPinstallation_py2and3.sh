@@ -6,10 +6,8 @@ pip install ipywidgets
 jupyter nbextension enable --py widgetsnbextension
 pip install nbinteract
 
-#Linux or Mac
-#pip install torch torchvision
 
-#Windows uncomment the line below
+#Windows uncomment the line below :: Python 2 & 3
 #pip install torch===1.5.0 torchvision===0.6.0 -f https://download.pytorch.org/whl/torch_stable.html
 
 pip3 install opencv-python-headless
@@ -21,7 +19,4 @@ jupyter nbextension enable --py widgetsnbextension
 pip3 install nbinteract
 
 #Linux or Mac uncomment the line below
-#pip install torch torchvision
-
-#Windows uncomment the line below
-#pip3 install torch===1.5.0 torchvision===0.6.0 -f https://download.pytorch.org/whl/torch_stable.html
+#pip3 install torch torchvision
