@@ -6,8 +6,5 @@ pip install ipywidgets
 jupyter nbextension enable --py widgetsnbextension
 pip install nbinteract
 
-#Linux or Mac uncomment the line below
-#pip install torch torchvision
-
 #Windows uncomment the line below
-#pip install torch===1.5.0 torchvision===0.6.0 -f https://download.pytorch.org/whl/torch_stable.html
+pip install torch===1.5.0 torchvision===0.6.0 -f https://download.pytorch.org/whl/torch_stable.html
